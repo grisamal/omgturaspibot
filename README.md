@@ -51,42 +51,6 @@
 
 ---
 
-## 📦 Быстрый запуск
-
-### 1. Клонирование репозитория
-```bash
-git clone https://github.com/grisamal/omgturaspibot.git
-cd omgturaspibot
-```
-
-### 2. Установка зависимостей
-```bash
-python -m venv venv
-# Linux / macOS
-source venv/bin/activate
-# Windows
-.\venv\Scripts\activate
-
-pip install -r requirements.txt
-```
-
-### 3. Настройка переменных окружения
-Скопируй `.env.example` в `.env`:
-```bash
-cp .env.example .env
-```
-Укажи токен бота в `.env`:
-```env
-BOT_TOKEN=твой_токен_от_BotFather
-```
-
-### 4. Запуск бота
-```bash
-python main.py
-```
-
----
-
 ## 📄 Лицензия
 
 Проект распространяется под открытой лицензией [MIT](LICENSE).
